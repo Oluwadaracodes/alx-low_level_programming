@@ -33,7 +33,9 @@ int main(void)
 		else
 		{
 			printf("%d", a);
-			printf(" ");
+			
+			if (a != 100)
+				printf(" ");
 		}
 		a++;
 	}

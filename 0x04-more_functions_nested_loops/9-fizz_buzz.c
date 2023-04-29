@@ -37,6 +37,6 @@ int main(void)
 		}
 		a++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }

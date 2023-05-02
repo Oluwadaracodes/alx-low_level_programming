@@ -6,7 +6,7 @@
  * it points to to 98'
  * @n: integer to be updated
  * @*n: pointer to be updated
- * Return: n
+ * Return: void
  */
 
 void reset_to_98(int *n)

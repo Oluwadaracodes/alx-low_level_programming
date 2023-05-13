@@ -6,7 +6,7 @@
  * @argv: array of argc
  * Return: Always 0
  */
-int main(int argc, char *argv[]__attribute__((unused)))
+int main(int argc, char *argv[])
 {
 	int a = 0;
 

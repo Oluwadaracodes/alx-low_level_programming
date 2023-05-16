@@ -12,23 +12,25 @@
 char *_strdup(char *str)
 {
 	char *new_space;
-	int a;
-	int b = 0;
+	int a = 0;
+	int b;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	for (a = 0; str[a] != '\0'; a++)
+	while (str[a] != '\0')
+	{
+		a++;
+	}
 	new_space = malloc(sizeof(char) * (a + 1));
 	if (new_space == NULL)
 	{
 		return (NULL);
 	}
-	while (str[b])
+	for (b = 0; str[b]; b++)
 	{
 		new_space[b] = str[b];
-		b++;
 	}
 	return (new_space);
 }
